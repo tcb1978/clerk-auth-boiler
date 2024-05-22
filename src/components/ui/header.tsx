@@ -31,6 +31,9 @@ const Header: FC<HeaderProps> = ({ }) => {
             <DropdownMenuItem>
               <Link href='/protected/client'>Client Page</Link>
             </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href='/api/me'>Who am I?</Link>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </nav>
